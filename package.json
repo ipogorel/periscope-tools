@@ -1,0 +1,24 @@
+{
+  "name": "periscope-tools",
+  "version": "0.0.1",
+  "description": "Tools and utility functions used to develop Periscope libraries. Based on aurelia tools",
+  "keywords": [
+    "periscope",
+    "tools"
+  ],
+  "homepage": "https://github.com/privosoft/periscope-tools",
+  "bugs": {
+    "url": "https://github.com/privosoft/periscope-tools/issues"
+  },
+  "license": "MIT",
+  "author": "",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/privosoft/periscope-tools"
+  },
+  "dependencies": {
+    "breeze-dag": "^0.1.0",
+    "through2": "^2.0.0"
+  }
+}

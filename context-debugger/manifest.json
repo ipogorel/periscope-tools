@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "Periscope Context",
+  "version": "1.2",
+  "description": "",
+  "devtools_page": "devtools.html",
+  "icons": {
+  }
+}

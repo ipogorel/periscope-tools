@@ -5,15 +5,15 @@ Tools and utility functions used to build and develop Periscope libraries.
 
 ## To create a dev environment:
 
-1. Create an aurelia directory to hold all of the projects.
+1. Create an periscope directory to hold all of the projects.
 
   ```shell
-  mkdir aurelia
+  mkdir periscope
   ```
 2. Change to the new directory
 
   ```shell
-  cd aurelia
+  cd periscope
   ```
 3. Clone this repository into the `tools` directory.  This repo contains the helper tools for creating the dev environment.
 
@@ -28,7 +28,8 @@ Tools and utility functions used to build and develop Periscope libraries.
 5. Change directory into periscope-demo-app
 
   ```shell
-  cd skeleton-navigation
+  cd periscope-demo-app
+
  ```
 6. Install the periscope-demo-app application's dependencies:
 
@@ -44,5 +45,5 @@ Tools and utility functions used to build and develop Periscope libraries.
 
 Now you have the ability to update the repos locally, make changes, and use those in the periscope-demo-app in the `periscope` directory by using the `gulp update-own-deps` command.
 
-Alternatively, run `gulp pull-dev-env` to only pull down each `aurelia` dependency and not perform builds.
+Alternatively, run `gulp pull-dev-env` to only pull down each `periscope` dependency and not perform builds.
 

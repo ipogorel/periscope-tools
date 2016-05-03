@@ -34,7 +34,7 @@ module.exports = {
       if(item.class){
         if(item.class === 'export'){
           delete item.class;
-          item.file = item.file.substring(item.file.indexOf('aurelia'));
+          item.file = item.file.substring(item.file.indexOf('periscope'));
           categorizeMember(item, methods, properties, events);
         }else{
           var owner = api.classes[item.class];
@@ -47,7 +47,7 @@ module.exports = {
           categorizeMember(item, owner.methods, owner.properties, owner.events);
         }
       }else{
-        item.file = item.file.substring(item.file.indexOf('aurelia'));
+        item.file = item.file.substring(item.file.indexOf('periscope'));
         categorizeMember(item, methods, properties, events);
       }
     }
@@ -70,7 +70,7 @@ module.exports = {
       value.methods = [];
       value.properties = [];
       value.events = [];
-      value.file = value.file.substring(value.file.indexOf('aurelia'));
+      value.file = value.file.substring(value.file.indexOf('periscope'));
 
       classes.push(value);
     }

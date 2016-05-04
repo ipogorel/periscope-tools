@@ -47,13 +47,13 @@ Alternatively, run `gulp pull-dev-env` to only pull down each `periscope` depend
 Sometimes 'gulp build-dev-env' doesn't work properly with some versions of npm. If you was failed to create the dev environment using this command you can make it manually. Firstly, you have to create subfolders for each dependent package.
 Each subfolder's name should be the same as repo name excluding the word 'periscope-'.  So, your directory structure should look as follows:
 
-.
+```
 +-- periscope
 |   +-- demo-app
 |   +-- framework (for periscope-framework)
 |   +-- ui  (for periscope-ui)
 |   +-- etc.
-
+```
 
 Then you should run 'git clone', 'npm install' and 'jspm install' for each dependent package.
 

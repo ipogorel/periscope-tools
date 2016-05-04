@@ -43,7 +43,6 @@ Tools and utility functions used to build and develop Periscope libraries.
   gulp build-dev-env
   ```
 Alternatively, run `gulp pull-dev-env` to only pull down each `periscope` dependency and not perform builds.
-
 Sometimes 'gulp build-dev-env' doesn't work properly with some versions of npm. If you was failed to create the dev environment using this command you can make it manually. Firstly, you have to create subfolders for each dependent package.
 Each subfolder's name should be the same as repo name excluding the word 'periscope-'.  So, your directory structure should look as follows:
 ```

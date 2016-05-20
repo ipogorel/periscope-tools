@@ -3,6 +3,7 @@ var path = require('path');
 var exec = require('child_process').exec;
 var gitPath = 'http://github.com/privosoft/';
 var dependencyPath = 'jspm_packages/npm';
+var moduleType = "es2015"; // amd
 
 if(!('endsWith' in String.prototype)){
   String.prototype.endsWith = function(suffix) {
@@ -76,7 +77,7 @@ module.exports = {
       .filter(function(name){ return name.startsWith('periscope-') && name.endsWith('.js'); })
       .map(function(name) {
         return [
-          levels + name.substring(0, name.indexOf('@')).replace('periscope-', '') + '/dist/amd',
+          levels + name.substring(0, name.indexOf('@')).replace('periscope-', '') + '/dist/' + moduleType,
           dependencyPath + '/' + name.substring(0, name.indexOf('.js'))
         ];
       }).forEach(function(value){

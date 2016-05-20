@@ -54,7 +54,7 @@ Tools and utility functions used to build and develop Periscope libraries.
   |   +-- etc.
   ```
   Then you should run 'git clone', 'npm install' and 'jspm install' for each dependent package.
-  
+
 8. Now you have the ability to update the repos locally, make changes, and use those in the periscope-demo-app in the `periscope` directory by using the `gulp update-own-deps` command.
 Note: before run `update-own-deps` command please make sure that the changed repos were properly built othervise run `build-dev-env` one more time.
 

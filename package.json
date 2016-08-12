@@ -1,6 +1,6 @@
 {
   "name": "periscope-tools",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Tools and utility functions used to develop Periscope libraries. Based on aurelia tools",
   "keywords": [
     "periscope",
